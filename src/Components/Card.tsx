@@ -1,6 +1,5 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Image from 'next/image';
-import { useState } from 'react';
 
 interface CardImageProps {
     altText: string,
