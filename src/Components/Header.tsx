@@ -1,5 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faMagnifyingGlass, faCartShopping } from '@fortawesome/free-solid-svg-icons';
+import { faUser } from '@fortawesome/free-regular-svg-icons';
 
 const Header = ():JSX.Element => {
      return(
@@ -15,9 +18,10 @@ const Header = ():JSX.Element => {
             <span>|</span>
             <span>THE SHOP</span>
 
-            <span>i</span>
-            <span>i</span>
-            <span>i</span>
+            <FontAwesomeIcon icon={faMagnifyingGlass} />
+            <FontAwesomeIcon icon={faUser} />
+            <FontAwesomeIcon icon={faCartShopping} />
+
          </div>
      )
 }
